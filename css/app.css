@@ -16,10 +16,11 @@ body{
 .uplod-section{
     background-color: #fff;
     width: 500px;
-    height: 400px;
     box-shadow: 0 2px 8px rgba(99, 99, 99, 0.2);
     padding: 1.5rem;
     border-radius: 20px;
+    max-height: 800px;
+    overflow-y: auto;
 }
 .title{
     color: #5a81da;
@@ -33,6 +34,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 .image-box{}
 .info-file{
@@ -49,5 +51,19 @@ body{
     margin-bottom: 0.6rem;
     color: #5a81da;
 }
+.color{
+    color: #a4bffc;
+}
 .text2{}
+.progress{
+    width: 100%;
+    height: 5px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+}
+.progress-bar{
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f432ac, #e70669);    
+}
 .status{}
