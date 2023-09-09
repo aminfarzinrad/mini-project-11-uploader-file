@@ -67,3 +67,14 @@ body{
     background-image: linear-gradient(to right, #f432ac, #e70669);    
 }
 .status{}
+.label{
+    border: 5px dashed #dfe7fe;
+    border-radius: 20px;
+    padding: 3rem 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #b3c6ff;
+    font-size: 1.5rem;
+}
